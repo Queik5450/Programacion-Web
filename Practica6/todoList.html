@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Lista De Pendientes</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/todoListDesign.css">
+</head>
+
+<body>
+    <div class="card" role="application">
+        <h1>Lista De Pendientes</h1>
+
+        <div class="input-row">
+            <input id="taskInput" type="text" placeholder="Ej. Recoger la basura" aria-label="Nueva tarea" />
+            <button id="addBtn">Agregar</button>
+        </div>
+
+        <ul id="todoList" class="todo-list" aria-live="polite"></ul>
+
+        <button id="clearAll" class="clear-btn">Limpiar lista</button>
+    </div>
+
+    <script src="js/todoListScripts.js"></script>
+</body>
+
+</html>
