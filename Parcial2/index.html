@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Formula 1</title>
+    <link rel="shortcut icon" href="imgs/logo.png" type="image/x-icon">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    
+    <!-- JavaScript -->
+    <script src="javascript/functions.js" defer></script>
+</head>
+
+<body>
+    <header>
+        <nav class="main-navbar">
+            <div class="navbar-left">
+                <img src="imgs/logo.png" alt="F1 Logo" class="navbar-logo logo">
+            </div>
+            <div class="navbar-right">
+                <span class="navbar-content">Content</span>
+            </div>
+        </nav>
+        <div class="banner-carousel">
+            <div class="carousel-images">
+                <img src="imgs/banners/f1_1.png" class="carousel-img active" alt="Banner 1">
+                <img src="imgs/banners/f1_2.png" class="carousel-img" alt="Banner 2">
+                <img src="imgs/banners/f1_3.png" class="carousel-img" alt="Banner 3">
+            </div>
+            <div class="carousel-indicators">
+                <span class="carousel-dot active" data-index="0"></span>
+                <span class="carousel-dot" data-index="1"></span>
+                <span class="carousel-dot" data-index="2"></span>
+            </div>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="teams-section" class="content-section">
+            <h2 class="section-title">F1 Teams 2025</h2>
+            <div class="cards-grid" id="teams-container">
+            </div>
+        </section>
+
+        <section id="drivers-section" class="content-section">
+            <div class="drivers-filter-bar">
+                <label for="drivers-team-filter" style="font-weight:bold;">Filter by Team:</label>
+                <select id="drivers-team-filter">
+                    <option value="all">All Teams</option>
+                </select>
+            </div>
+            <h2 class="section-title">F1 Drivers 2025</h2>
+
+            <div class="cards-grid" id="drivers-container">
+            </div>
+        </section>
+
+        <section id="races-section" class="content-section">
+            <h2 class="section-title">F1 Races 2025</h2>
+            <div class="cards-grid" id="races-container">
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&lt;&gt; José Pereira</p>
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,522 @@
+@font-face {
+    font-family: 'Formula1'; 
+    src: url('../fonts/Formula1-Regular_web_0.ttf');
+    font-weight: normal; 
+    font-style: normal; 
+}
+
+@font-face {
+    font-family: 'Formula1Bold'; 
+    src: url('../fonts/Formula1-Bold_web_0.ttf');
+    font-weight: bold; 
+    font-style: normal; 
+}
+
+:root {
+    --clr-white: #ffffff;
+    --clr-red: #EE2A26;
+    --clr-black: #000000;
+    --clr-dark: #15151E;
+    --clr-light-purple: #c1c4f4;
+    --clr-light-purple-v2: #adb0db;
+    --ff-primary: "Formula1", sans-serif;
+    --ff-primary-bold: "Formula1Bold", sans-serif;
+    --ff-secondary: "Titillium Web", sans-serif;
+}
+
+.logo {
+    height: 56px;
+    width: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.carousel-indicators {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    z-index: 3;
+}
+
+.carousel-dot {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #fff;
+    opacity: 0.5;
+    cursor: pointer;
+    transition: opacity 0.2s, background 0.2s;
+}
+
+.carousel-dot.active {
+    opacity: 1;
+    background: #EE2A26;
+}
+
+.main-navbar {
+    width: 100vw;
+    background: var(--clr-dark);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0 0.5rem 2.5rem;
+    min-height: 70px;
+    position: relative;
+    z-index: 10;
+    box-sizing: border-box;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.navbar-logo {
+    height: 28px;
+    width: auto;
+    margin-top: 4px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: flex-end;
+    min-width: 0;
+    padding-right: 2.5rem;
+}
+
+.navbar-content {
+    color: #fff;
+    font-size: 1.2rem;
+    white-space: nowrap;
+    padding-right: 0;
+}
+
+.banner-carousel {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+    background: #15151E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carousel-images {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.carousel-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s;
+    z-index: 1;
+}
+
+.carousel-img.active {
+    opacity: 1;
+    z-index: 2;
+}
+
+.carousel-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 1rem;
+    z-index: 3;
+}
+
+.carousel-btn {
+    background: rgba(0,0,0,0.6);
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+
+.carousel-btn:hover {
+    background: #EE2A26;
+}
+
+.drivers-filter-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+#drivers-team-filter {
+    background: #fff;
+    color: #222;
+    border: none;
+    border-radius: 8px;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: var(--ff-secondary);
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    outline: none;
+    min-width: 180px;
+    transition: box-shadow 0.2s;
+}
+
+#drivers-team-filter:focus {
+    box-shadow: 0 0 0 2px var(--clr-light-purple);
+}
+
+body {
+    background-color: var(--clr-dark);
+    color: var(--clr-white);
+    font-family: var(--ff-secondary);
+    margin: 0;
+    padding: 0;
+}
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+.banner-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom, transparent 0%, var(--clr-dark) 100%);
+}
+
+.filter-nav {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+
+.filter-btn {
+    background-color: var(--clr-light-purple-v2);
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 20px;
+    font-family: var(--ff-primary);
+    font-size: 0.8rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    color: var(--clr-black);
+}
+
+.filter-btn:hover, .filter-btn.active {
+    background-color: var(--clr-light-purple);
+    transform: scale(1.05);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.section-title {
+    font-family: var(--ff-primary-bold);
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.cards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 3rem;
+}
+
+.team-card {
+    border-radius: 15px;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    min-height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.team-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    z-index: 2;
+    width: 100%;
+}
+
+.team-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.team-name {
+    font-family: var(--ff-primary-bold);
+    font-size: 1.5rem;
+    margin: 0;
+    line-height: 1;
+}
+
+.team-drivers-container {
+    display: flex;
+    gap: 1rem;
+    margin-top: 0.5rem;
+}
+
+.team-driver-item {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.team-driver-photo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+.team-driver-name {
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+
+.team-logo-wrapper {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+
+.team-logo {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.team-car {
+    width: 100%;
+    margin-top: 1rem;
+    z-index: 2;
+    transition: transform 0.3s ease;
+}
+
+.team-card:hover .team-car {
+    transform: scale(1.05);
+}
+
+.driver-card {
+    border-radius: 15px;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    height: 220px;
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.driver-info {
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    width: 50%;
+}
+
+.driver-names {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+}
+
+.driver-firstname {
+    font-family: var(--ff-primary-bold);
+    font-size: 1rem;
+}
+
+.driver-lastname {
+    font-family: var(--ff-primary-bold);
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.driver-team {
+    font-size: 0.7rem;
+    margin-top: 0.3rem;
+    opacity: 0.8;
+}
+
+.driver-number {
+    font-family: var(--ff-primary-bold);
+    font-size: 3.5rem;
+    line-height: 1;
+    margin-top: 1rem;
+}
+
+.driver-flag {
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: auto;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-top: auto;
+    border: 2px solid #fff;
+}
+
+.driver-photo {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100%;
+    width: 55%;
+    object-fit: cover;
+    object-position: top center;
+    z-index: 1;
+}
+
+.race-card {
+    background-color: #000;
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 220px;
+}
+
+.race-info {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.race-round {
+    font-size: 0.7rem;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.race-country-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.race-flag {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #333;
+}
+
+.race-country {
+    font-family: var(--ff-primary-bold);
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    margin: 0;
+    line-height: 1;
+}
+
+.race-description {
+    font-size: 0.6rem;
+    color: #aaa;
+    line-height: 1.2;
+    max-width: 80%;
+}
+
+.race-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 1rem;
+}
+
+.race-date-box {
+    background-color: var(--clr-light-purple-v2);
+    color: var(--clr-black);
+    padding: 0.4rem 0.8rem;
+    border-radius: 8px;
+    font-size: 0.8rem;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.race-track {
+    height: 100px;
+    width: auto;
+    filter: invert(1);
+    transition: transform 0.3s ease;
+}
+
+.race-card:hover .race-track {
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .cards-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .banner-container {
+        height: 250px;
+    }
+}
+
+footer {
+    text-align: center;
+    padding: 2rem;
+    font-size: 0.8rem;
+    color: #666;
+}
