@@ -1,0 +1,89 @@
+{
+    "items": [
+        {
+            "id": 1,
+            "name": "Caparazón Rojo",
+            "image": "img/items/caparazon_rojo.webp",
+            "description": "El Caparazón Rojo es un caparazón especial que llevan los Koopa Troopa, este caparazón a diferencia de verde, nunca se sale del escenario, Ya que al llegar a un hoyo en el suelo, da la vuelta y regresa a la tierra y no dejara de parar hasta que lo destruyas o lo dejes atrás. Golpea a los rivales y le quita sus monedas." ,
+            "effect": "Es un caparazón que acierta directamente al jugador mas cercano."
+        },
+        {
+            "id": 2,
+            "name": "Caparazón Verde",
+            "image": "img/items/caparazon_verde.webp",
+            "description": "Es un objeto recurrente en los videojuegos de Super Mario, donde tiene una especial mención en la saga Mario & Luigi, donde apareció por primera vez en Mario & Luigi: Compañeros en el Tiempo como un objeto tándem y como un ataque especial en Mario & Luigi: Viaje al centro de Bowser." ,
+            "effect": "Es un caparazón que acierta a todo aquel que se meta en su camino."
+        },
+        {
+            "id": 3,
+            "name": "Champiñón",
+            "image": "img/items/champiñon.webp",
+            "description": "El champiñón es un objeto en la saga con diversas cantidades de tipos, esta variedad aporta a Mario una gran variedad de poderes, trajes o habilidades que le facilitan completar la aventura. Gracias a estos champiñones, Mario puede avanzar en diferentes fases, que no puede pasar sin ayuda del efecto de un champiñón, o simplemente ayudar a Mario a hacer mas fácil su aventura, como lo es el Superchampiñón, que convierte a Mario en Super Mario, en Super Mario Bros.",
+            "effect": "Hacer que Mario use su tamaño normal (Super Mario Saga),(Nuevo Super Mario Saga) y en la serie de Mario Kart hace que le de un turbo al Kart, en Super Mario 64 DS Mario se vuelve gigante por tiempo limitado gracias a ellos"
+        },
+        {
+            "id": 4,
+            "name": "Bill Bala",
+            "image": "img/items/bill_bala.webp",
+            "description": "Son misiles que son disparados desde cañones, principalmente desde unos cañones especiales llamados Lanza Bills o Bill Blasters, reconocibles por su color negro y por la calavera que tienen pintada. Bowser y su ejército frecuentemente colocan estos cañones en sus aeronaves y territorios para asaltar el Reino Champiñón e intentar acabar con Mario.",
+            "effect": "Causa un 25% de daño, y si esta choca contra una pared, causa una explosión que propina 30% de daño"
+        }
+        ,
+        {
+            "id": 5,
+            "name": "Champiñón Vida Extra",
+            "image": "img/items/champiñon_vida_extra.webp",
+            "description": "Es un champiñón de color verde y con puntos blancos que da al jugador una vida extra al tocarlo. Suelen estar escondidos en el interior de bloques invisibles o en lugares peligrosos, lo que los vuelve el tipo de champiñón más difícil de encontrar en la mayoría de juegos donde aparecen.",
+            "effect": "Le otorga al jugador una vida extra"
+        },
+        {
+            "id": 6,
+            "name": "Bloque",
+            "image": "img/items/bloque.webp",
+            "description": "Los bloques son unos cuadrados flotantes que Mario puede golpear con el puño debajo de ellos, aparecieron por primera vez en Super Mario Bros.",
+            "effect": ""
+        },
+        {
+            "id": 7,
+            "name": "Bloopers",
+            "image": "img/items/blooper.webp",
+            "description": "Los Bloopers son unos calamares que han aparecido en los videojuegos de Mario desde Super Mario Bros. Estos enemigos viven en zonas acuáticas, siendo el enemigo acuático más icónico de la franquicia junto con los Cheep Cheeps.",
+            "effect": "Al igual que los calamares reales ellos tienen la capacidad de expulsar tinta, aunque esta habilidad no la suelen emplear en la mayoría de juegos donde aparecen."
+        },
+        {
+            "id": 8,
+            "name": "Estrella",
+            "image": "img/items/estrella.webp",
+            "description": "Se trata de uno de los objetos más fuertes, aunque es muy poco común. Cuando Mario u otro personaje la toca, comienza a brillar y se vuelve invulnerable durante unos segundos, además de que será capaz de derrotar a la mayoría de enemigos con solo tocarlos, aunque aún puede perder una vida si entra en contacto con la lava, con aguas venenosas o si se cae por un precipicio.",
+            "effect": "Hace al personaje invencible durante unos segundos"
+        },
+        {
+            "id": 9,
+            "name": "Flor de Fuego",
+            "image": "img/items/flor_de_fuego.webp",
+            "description": "La Flor de fuego otorga el poder del fuego a aquellos que la tocan, permitiéndoles lanzar bolas de fuego que pueden chamuscar y derrotar con facilidad a muchos enemigos. ",
+            "effect": "Convierte a Mario en Mario de Fuego."
+        },
+        {
+            "id": 10,
+            "name": "Flor de Hielo",
+            "image": "img/items/flor_de_hielo.webp",
+            "description": "Se trata de la contraparte de la Flor de Fuego, aunque ésta última es más fácil de conseguir. El efecto que otorga la Flor de Hielo varía dependiendo del juego.",
+            "effect": "Convierte a Mario en Mario de Hielo."
+        },
+        {
+            "id": 11,
+            "name": "Flor Boomerang",
+            "image": "img/items/flor_boomerang.webp",
+            "description": "La Flor Boomerang transforma a Mario en Mario Boomerang al agarrarla, haciendo que éste adquiera una armadura y un casco muy similar al de los Hermanos Boomerang y dándole la habilidad de lanzar boomerangs para destruir bloques, agarrar objetos y golpear enemigos.",
+            "effect": "Transforma a Mario en Mario Boomerang"
+        },
+        {
+            "id": 12,
+            "name": "Bloque POW",
+            "image": "img/items/bloque_pow.webp",
+            "description": "El Bloque POW es un item icónico que apareció por primera vez en Mario Bros. Es un bloque que al ser golpeado causa un terremoto.",
+            "effect": "Causa un terremoto que acaba con los enemigos."
+        }
+    ]
+}

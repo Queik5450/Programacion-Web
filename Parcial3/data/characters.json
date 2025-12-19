@@ -1,0 +1,192 @@
+{
+    "characters": [
+        {
+            "id": 1,
+            "name": "Mario",
+            "description": "Es un fontanero estadounidense de origen italiano que actualmente vive en el Reino Champiñón. Como el héroe que es, se encarga de salvar a la gente, especialmente a la Princesa Peach, a quien ha salvado muchísimas veces de las garras del temible Bowser, quien es su archi-enemigo. Es una persona humilde y de buen corazón, que no le importa cuanto tenga que recorrer para salvar a la gente que necesita su ayuda.",
+            "skills": "Es capaz de realizar varias maniobras acrobáticas, como el Salto largo, el Retroceso, el Salto Giro y el Salto escalada, siendo el Salto escalada una de sus habilidades más recurrentes.",
+            "images": [
+                "img/characters/mario.png",
+                "img/characters/mario_2.png"
+            ],
+            "first_apparition": 1981,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 2,
+            "name": "Luigi",
+            "description": "Luigi es el hermano menor de Mario. Luigi empezó con un diseño igual al de Mario pero con una paleta de colores distinta (en la que predominaba el color verde). Al mejorar la tecnología fue cuando el personaje cambió físicamente, más alto y delgado que su hermano. La personalidad de Luigi también se desarrolló y se dice que es cobarde y nervioso, con tendencia siempre a permanecer detrás de su hermano.",
+            "skills": "Luigi aprende habilidades como el salto alto, el modo topo y la mano de rayos.",
+            "images": [
+                "img/characters/luigi.png"
+            ],
+            "first_apparition": 1983,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 3,
+            "name": "Yoshi",
+            "description": "Es un amistoso dinosaurio perteneciente a la especie de su mismo nombre que ha ayudado a Mario y a Luigi, que suelen utilizarlo como una montura muy útil que les permite superar niveles más fácilmente, en varias aventuras y ha protagonizado otras. Vive en la Isla de Yoshi, una isla tropical cercana al Reino Champiñón, aunque visita el reino con frecuencia.",
+            "skills": "La principal habilidad de Yoshi es el poderse comer enemigos tras atraparlos con su lengua y después poner huevos, que puede lanzar a otros enemigos para dañarles. Yoshi también puede elevarse en el aire, pedaleando.",
+            "images": [
+                "img/characters/yoshi.png"
+            ],
+            "first_apparition": 1990,
+            "created_by": "Shigefumi Hino"
+        },
+        {
+            "id": 4,
+            "name": "Toad",
+            "description": "Es un pequeño humanoide con una cabeza en forma de champiñón. Son personas pacíficas del Reino Champiñón. Al igual que otros personajes de Mario, como Yoshi, tanto la especie como el individuo principal se llaman Toad. Toad es un personaje feliz y un poco infantil, es amable y casi nunca se enfada.",
+            "skills": "Fuerza, Velocidad alta, Resistencia, Proficiencia de martillo, Bulbo de hongo elástico, Emitición de esporas, Caminar por la pared, Habilidades de conducción, Transformación de Toad tanuki",
+            "images": [
+                "img/characters/toad.png"
+            ],
+            "first_apparition": 1985,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 5,
+            "name": "Princesa Peach",
+            "description": "Peach vive en su castillo y se encarga de asuntos políticos en el Reino Champiñón. Además, varios Toads como el Maestro Kinopio la ayudan a gestionar el reino. Ella se preocupa muchos por los ciudadanos de su reino. A menudo es raptada por Bowser o por sus secuaces. No obstante, siempre acaba siendo rescatada por Mario. Las razones por lo que es secuestrada por Bowser es porque él quiere tomar control del Reino Champiñón y porque está enamorado de la princesa.",
+            "skills": "Su habilidad característica es la de poder flotar en el aire durante unos segundos.",
+            "images": [
+                "img/characters/peach.png"
+            ],
+            "first_apparition": 1985,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 6,
+            "name": "Princesa Daisy",
+            "description": "Daisy es conocida por que sus habilidades especiales a menudo tratan con flores (las margaritas, principalmente, esto podría ser también ya que su nombre está relacionado con las margaritas). Ella es la mejor amiga de la Princesa Peach y su compañera de equipo y en bastantes juegos se menciona que Luigi está enamorado de ella y viceversa.",
+            "skills": "Daisy tiene la habilidad única de poder dar un segundo salto en el aire.",
+            "images": [
+                "img/characters/daisy.png"
+            ],
+            "first_apparition": 1989,
+            "created_by": "Gunpei Yokoi"
+        },
+        {
+            "id": 7,
+            "name": "Rosalina",
+            "description": "Ella vive en su planetario, que usa para observar el cosmos y transportarse por el espacio. En su observatorio también habitan muchos destellos, quienes acompañan a Rosalina en sus viajes y la consideran su madre.",
+            "skills": "Su habilidad principal es crear escudos de energía para protegerse y proteger a sus aliados.",
+            "images": [
+                "img/characters/rosalina.png"
+            ],
+            "first_apparition": 2007,
+            "created_by": "Yoshiaki Koizumi"
+        },
+        {
+            "id": 8,
+            "name": "Bowser",
+            "description": "Es el rey y el más poderoso de los Koopas. Vive en un enorme y peligroso castillo en el Reino Koopa. El objetivo de Bowser en la mayoría de juegos es secuestrar a la Princesa Peach, de la que está enamorado, y dominar el Reino Champiñón, aunque sus planes siempre son arruinados por Mario.",
+            "skills": "Bowser tiene la habilidad de escupir fuego, siendo ésta su principal forma de atacar.",
+            "images": [
+                "img/characters/bowser.png"
+            ],
+            "first_apparition": 1985,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 9,
+            "name": "Bowser Jr",
+            "description": "Es el único hijo de Bowser, lo que lo convierte en el príncipe y futuro rey de los Koopas. También es el líder de los Koopalines. Ha ayudado a Bowser en sus planes para derrotar a Mario y a Luigi y secuestrar a la Princesa Peach en numerosas ocasiones.",
+            "skills": "Bowser Jr. ha heredado gran parte de las habilidades y poderes de su padre Bowser, como la capacidad de meterse en su caparazón para protegerse de ataques y deslizarse a gran velocidad para atacar o la habilidad de escupir fuego.",
+            "images": [
+                "img/characters/bowser_jr.png"
+            ],
+            "first_apparition": 2002,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 10,
+            "name": "Wario",
+            "description": "Fue inventado con la finalidad de ser la antítesis malvada de Mario, a la vez que protagonista de su propia saga de videojuegos: Wario Land. Esto se refleja en su personalidad, y su gran astucia, todo lo contrario de Mario.",
+            "skills": "Wario tiene una fuerza sobrehumana, mucho mayor a la de Mario y comparable a la de otros rivales del fontanero como Bowser o Donkey Kong.",
+            "images": [
+                "img/characters/wario.png"
+            ],
+            "first_apparition": 1992,
+            "created_by": "Hiroji Kiyotake"
+        },
+        {
+            "id": 11,
+            "name": "Waluigi",
+            "description": "Es el antipático rival de Luigi y el compañero de Wario. Waluigi aparece casi siempre junto a Wario. A menudo se les ve a los dos haciendo maldades y trampas en las competiciones en donde participan, pero su torpeza hace que sus planes nunca salgan bien.",
+            "skills": "Waluigi tiene el poder de invocar agua , que puede usar para cubrir un área. Waluigi también puede nadar en el aire como forma de volar.",
+            "images": [
+                "img/characters/waluigi.png"
+            ],
+            "first_apparition": 2000,
+            "created_by": "Fumihide Aoki"
+        },
+        {
+            "id": 12,
+            "name": "Donkey Kong",
+            "description": "Donkey Kong es un Kong que se asemeja a un gorila de construcción voluminosa con un físico corpulento; además de tener pectorales, bíceps y tríceps particularmente grandes, él mide 185 cm (6' 1\") y pesa 363 kg (800 Ib.), incluso tiene pies grandes de primates con pulgares oponibles. Él también tiene ojos marrones, piel melocotón y pelaje marrón, con el de su cabeza teniendo una forma distinta hasta el punto de parecer un peinado.",
+            "skills": "Donkey Kong se basa principalmente en su habilidad de marca que es su fuerza bruta.",
+            "images": [
+                "img/characters/donkey_kong.png"
+            ],
+            "first_apparition": 1981,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 13,
+            "name": "Diddy Kong",
+            "description": "Diddy Kong es un Kong que parece ser un mono araña antropomórfico de pelaje marrón con ojos azules/marrones y piel de color melocotón en sus orejas, hocico, torso delantero, manos y pies versátiles. Él tiene un ombligo y una larga cola prensil. Su atuendo consiste en una gorra roja con el logo de Nintendo blanco en su frente, y una camiseta roja sin mangas con estrellas amarillas.",
+            "skills": "Diddy Kong es rápido y ágil para compensar la gran fuerza de Donkey Kong.",
+            "images": [
+                "img/characters/diddy_kong.png"
+            ],
+            "first_apparition": 1994,
+            "created_by": "Rare Ltd"
+        },
+        {
+            "id": 14,
+            "name": "Toadette",
+            "description": "Toadette es una Toad de color rosa, alegre y muy energética. Es una de las manos derechas de la Princesa Peach, siendo la archivista real de la princesa. Toadette siempre ha estado muy unida a Toad y han sido compañeros de equipo en una gran cantidad de juegos.",
+            "skills": "Capacidades Físicas Sobrehumanas, Acrobacia, Artes Marciales, Maestría en Vehículos",
+            "images": [
+                "img/characters/toadette.png"
+            ],
+            "first_apparition": 2003,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 15,
+            "name": "Birdo",
+            "description": " Ella es un dinosaurio de color rosa con una alargada boca redonda por la que puede escupir huevos. Siempre lleva puesto un enorme lazo rojo sobre su cabeza y también suele llevar un anillo en su mano izquierda.",
+            "skills": "La habilidad principal de Birdo es la capacidad de escupir huevos por su boca, aunque también puede escupir bolas de fuego.",
+            "images": [
+                "img/characters/birdo.png"
+            ],
+            "first_apparition": 1988,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 16,
+            "name": "Boo",
+            "description": "Los Boos son unos fantasmas que viven en lugares oscuros y a los que les encanta gastar bromas y asustar a la gente, aunque irónicamente son bastante cobardes y se asustan cuando la gente les mira a los ojos.",
+            "skills": "Los Boos tienen la habilidad de poder contraatacar todo el daño que reciban.",
+            "images": [
+                "img/characters/boo.png"
+            ],
+            "first_apparition": 1988,
+            "created_by": "Shigeru Miyamoto"
+        },
+        {
+            "id": 17,
+            "name": "Kamek",
+            "description": "Kamek es un personaje ficticio que aparece en varios videojuegos correspondientes a la saga de Super Mario. Kamek es un magikoopa que cuidaba de Bowser cuando éste era bebe. Cuando el rey Koopa creció, convirtió a Kamek en uno de sus aliados de confianza.",
+            "skills": "Kamek puede realizar diversas proezas de magia, como la auto duplicación, teletransporte, los disparos y explosiones mágicas cambiar el tamaño de las demás criaturas entre otros",
+            "images": [
+                "img/characters/kamek.png"
+            ],
+            "first_apparition": 1995,
+            "created_by": "Shigeru Miyamoto"
+        }
+    ]
+}

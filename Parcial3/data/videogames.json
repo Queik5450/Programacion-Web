@@ -1,0 +1,188 @@
+{
+    "videogames": [
+        {
+            "id": 1,
+            "year": 1985,
+            "name": "Super Mario Bros",
+            "image": "img/videogames/super_mario_bros.jpg",
+            "description": "Un día el reino de las pacíficas personas Champiñón fue invadido por Koopa, una tribu de tortugas famosas por su magia negra. Las calladas y pacíficas personas Champiñón fueron convertidas en simples piedras, ladrillos y hasta plantas y el Reino Champiñón cayó en la ruina. La única que podía deshacer este hechizo mágico en las personas Champiñón y regresarlas a la normalidad es la princesa Toadstool, la hija del Rey Champiñón. Desafortunadamente ella está en manos de Bowser, el rey de los Koopas. Mario se entera de los apuros de las personas Champiñón y se embarca en una aventura para liberar a la princesa del malvado Koopa y restaurar el reino caído de las personas Champiñón. ¡Tú eres Mario! ¡Dependerá de ti rescatar a las personas Champiñón de la magia negra de Koopa!",
+            "platform": "Nintendo Entertainment System"
+        },
+        {
+            "id": 2,
+            "year": 1988,
+            "name": "Super Mario Bros 2",
+            "image": "img/videogames/super_mario_bros_2.jpg",
+            "description": "Una noche Mario tuvo un extraño sueño. Soñó con una larga, larga escalera que llevaba a una puerta. Tan pronto como la puerta se abrió se encontraba en un mundo que jamás había visto y que se extendía más allá de donde los ojos le permitían ver. Cuando se esforzó por oír, escuchó una débil voz diciendo “Bienvenido al Subcon, la tierra de los sueños, hemos sido hechizados por Wart y estamos bajo su total hechizo. Hemos estado esperando tu llegada. Por favor derrota a Wart y regresa a Subcon a su estado natural. El hechizo que Wart ha puesto sobre ti en el mundo real, no tiene ningún efecto aquí sobre ti. Recuerda, Wart odia las verduras. ¡Por favor ayúdanos!”. Mientras escuchaba esto, un rayo de luz brilló ante los ojos de Mario. Desconcertado, Mario perdió el equilibrio y cayó boca abajo. Cuando despertó se encontró a sí mismo en su cama. Para despejar sus pensamientos, Mario habló con Luigi, Toad y la princesa Peach acerca del sueño que tuvo. Ellos decidieron ir a una montaña cercana para un picnic. Después de llegar al área del picnic y mirar el paisaje, vieron una pequeña cueva que se encontraba cerca. Cuando entraron a la cueva, para su gran sorpresa, vieron una escalera que llevaba hacia arriba, arriba, arriba. Era exactamente como la que Mario había visto en su sueño. Todos caminaron juntos en la escalera y en la cima encontraron una puerta idéntica a la del sueño de Mario. Cuando Mario y sus amigos, con miedo, abrieron la puerta, ¡vieron para su sorpresa que el mundo que él había visto en sus sueños se mostraba ante ellos!",
+            "platform": "Nintendo Entertainment System"
+        },
+        {
+            "id": 3,
+            "year": 1989,
+            "name": "Super Mario Land",
+            "image": "img/videogames/super_mario_land.jpg",
+            "description": "Érase una vez un pacífico mundo llamado Sarasaland. En este mundo había 4 reinos llamados Birabuto, Muda, Easton y Chai. Un día, los cielos de Sarasaland fueron cubiertos por una enorme nube negra. De una brecha en esta nube emergió el desconocido monstruo espacial, Tatanga, para intentar conquistar Sarasaland. Tatanga hipnotizó a las personas de todos los reinos para poder controlarlos de la forma que él quería. De esta manera se adueñó de Sarasaland. Ahora quiere casarse con la princesa Daisy de Sarasaland para hacerla su reina. Mario se ha enterado de estos eventos y ha comenzado su viaje hacia el reino Chai, donde la princesa Daisy está en cautiverio, para restaurar la paz en Sarasaland. ¿Podrá Mario derrotar a Tatanga, librar a las personas de su hipnosis interestelar y rescatar a la princesa Daisy? Todo dependerá de tus habilidades y las de Mario. ¡Vamos Mario!",
+            "platform": "Game Boy"
+        },
+        {
+            "id": 4,
+            "year": 1990,
+            "name": "Super Mario Bros 3",
+            "image": "img/videogames/super_mario_bros_3.jpg",
+            "description": "Gracias al esfuerzo de Mario y su hermano Luigi, el Reino Champiñón por fin ha regresado a la normalidad. Pero el Reino Champiñón es la entrada al Mundo Champiñón, hogar de varios peculiares y maravillosos reinos. Bowser ha huido del Reino Champiñón, pero ha enviado a sus siete hijos a desatar el caos por todo el Mundo Champiñón. Los hijos de Bowser han infiltrado el castillo de cada uno de los reinos, convirtiendo a los reyes en animales antes de robar sus cetros mágicos. Ahora, Mario y Luigi deberán emprender un nuevo viaje para recuperar cada cetro y regresar a los reyes a la normalidad. Después de recibir los buenos deseos de la princesa Peach y sus ayudantes Toad, los dos hermanos se embarcarán en una nueva aventura que los llevará a lo más profundo del misterioso Mundo Champiñón.",
+            "platform": "Nintendo Entertainment System"
+        },
+        {
+            "id": 5,
+            "year": 1991,
+            "name": "Super Mario World",
+            "image": "img/videogames/super_mario_world.jpg",
+            "description": "Después de regresar la paz al Mundo Champiñón, Mario y Luigi deciden tomar unas vacaciones con la princesa Peach. Todos deciden dirigirse a la lejana Isla de Yoshi en la mágica Tierra de los dinosaurios que se encuentra en el sur. Pero poco tiempo después de llegar a la isla, la princesa Peach desaparece. Mientras Mario y Luigi la buscan desesperadamente, descubren un extraño huevo en los alrededores de la isla. Después, ante sus ojos, ¡un pequeño dragón eclosiona! El dragón se llama a sí mismo Yoshi y dice “Monstruos tortugas aparecieron recientemente aquí en la Tierra de los Dinosaurios. Han usado su magia para atrapar a mis amigos dentro de los huevos. Intenté ayudarlos, pero las tortugas son increíblemente fuertes y también me han hechizado… ¿Podrían venir conmigo y rescatar a mis amigos?”. ¿Qué significa esto? Aparentemente, Bowser no ha aprendido su lección y parece que sus cómplices han secuestrado a la princesa Peach una vez más. ¡Mario y Luigi comienzan otra aventura donde esperan rescatar a los amigos de Yoshi y a la princesa Peach!",
+            "platform": "Super Nintendo Entertainment System"
+        },
+        {
+            "id": 6,
+            "year": 1992,
+            "name": "Super Mario Land 2: 6 Golden Coins",
+            "image": "img/videogames/super_mario_land_2.jpg",
+            "description": "Una nota de Mario: Mientras yo luchaba por liberar Sarasaland del yugo opresor de Tatanga, el ser del espacio, ¡mi castillo cayó en manos de un auténtico monstruo! Y, por si fuera poco, todos los habitantes de Mario Land han sido embrujados y obedecen ciegamente sus órdenes. ¡Este bellaco se hace llamar Wario y me imita descaradamente, ¡pero no es más que un impostor que siempre ha envidiado mi castillo! Además, ha esparcido mis seis monedas de oro por todo el reino, ¡y ahora las custodian sus lacayos! Sin esas monedas, ¡no tengo manera de entrar en mi castillo! ¡Pero ya verá este Wario lo que es bueno! ¡Con tu ayuda, recuperaré las monedas y acabaré con esta farsa de una vez por todas! ¡Vamos, no hay tiempo que perder!",
+            "platform": "Game Boy"
+        },
+        {
+            "id": 7,
+            "year": 1996,
+            "name": "Super Mario 64",
+            "image": "img/videogames/super_mario_64.jpg",
+            "description": "“Mario, por favor ven a mi castillo. He horneado un pastel para ti. Princesa Toadstool.”. “¡Una invitación de Peach! Voy para allá inmediatamente. ¡Espero que pueda esperarme!”. Mario está tan emocionado por la invitación de la princesa, quien vive en el castillo Champiñón, que se viste rápidamente con su mejor atuendo y se marcha inmediatamente. “Mmmm, algo no está bien… no escucho ningún ruido…”. Ignorando su inquietante sentimiento, Mario entra al silencioso castillo donde es recibido por las palabras, “¡No hay nadie en casa! ¡Lárgate! Bwa, ha, ha”. El sonido parece provenir de todas partes. “¡¿Quién anda ahí?! He escuchado antes esa voz en alguna parte…”. Mario empieza a explorar todo el castillo. La mayoría de las puertas están cerradas con llave, pero al encontrar una puerta abierta, se asoma un poco. En una pared mira el cuadro más grande que jamás ha visto y desde el cuadro emana el sonido más extraño que jamás ha escuchado... “Creo que escucho a alguien llamando. ¿Qué secretos esconde este cuadro?”. Sin dudarlo por un segundo, Mario brinca hacia el cuadro. Mientas es atraído hacia él, un nuevo mundo se abre delante de sus ojos. Una vez dentro del cuadro, Mario se encuentra en el medio de una batalla de bob-ombas rojas. Alguien… o algo… ha atacado de pronto al castillo y ha robado las “hiperestrellas”. Con las estrellas en su poder, el malvado planea invadir el castillo Champiñón. Para poder cumplir sus deseos planea convertir a los residentes del mundo en monstruos. Si no hacemos algo, todos los monstruos pronto empezarán a salir de los cuadros. “Un plan tan maniaco, tan malvado… ¡debe ser trabajo de Bowser!”. La princesa Toadstool y Toad también están extraviados. Bowser probablemente los atrapó dentro de los cuadros. A menos que Mario recupere las hiperestrellas inmediatamente, los habitantes de este mundo se convertirán en el ejército de Bowser. “Bueno, Bowser no se saldrá con la suya mientras yo esté aquí.”. Las hiperestrellas robadas se encuentran ocultas a través de este mundo. Usa tu inteligencia y fuerza para recuperar las hiperestrellas y restaurar la paz en el castillo Champiñón. “¡Mario! Eres el único con el que podemos contar.”.",
+            "platform": "Nintendo 64"
+        },
+        {
+            "id": 8,
+            "year": 2002,
+            "name": "Super Mario Sunshine",
+            "image": "img/videogames/super_mario_sunshine.jpg",
+            "description": "Cierra tus ojos e imagínate esto… el relajante sol acompañado del sonido de las olas que delicadamente se rompen en la bahía… en lo alto, gaviotas volando en círculos en un cielo azul y despejado. Esta es la Isla Delfino. Alejada del ajetreo del Reino Champiñón, esta isla brilla como una gema en los mares del sur. Mario, Peach y su séquito de toads han llegado a la Isla Delfino para relajarse y descansar… pero cuando llegan descubren que las cosas han salido terriblemente mal… De acuerdo con los habitantes de la isla la persona responsable por este desastre tiene una nariz redonda, un bigote espeso y usa una gorra… ¿Qué? Pero… ¡eso suena como si se tratara de Mario! Los isleños dicen que el desastre de Mario ha contaminado la isla y ha causado la desaparición de su fuente de energía, los Soles. Ahora Mario, que ha sido acusado falsamente, ha prometido ayudar a limpiar la isla, pero… ¿cómo? ¡No temas más! F.L.U.D.D., el último invento de Inventos D. Sastre, S.A., podrá ayudarte a limpiar la isla, enfrentarte a los malosos y deshacerte de cualquier situación pegajosa. ¿Podrá Mario limpiar la isla, capturar al villano y salvar su honor? ¡Es hora de comenzar otra aventura de Mario!",
+            "platform": "Nintendo GameCube"
+        },
+        {
+            "id": 9,
+            "year": 2006,
+            "name": "New Super Mario Bros",
+            "image": "img/videogames/new_super_mario_bros.jpg",
+            "description": "¡Noticias de último minuto! ¡La princesa Peach ha sido secuestrada! Mientras disfrutaba de un picnic con Mario, la querida gobernante del Reino Champiñón fue secuestrada por un misterioso asaltante. ¿Cómo pudo pasar esto si Mario estaba ahí? De acuerdo con Mario, la caminata era maravillosa hasta que Mario y la princesa notaron que salía humo del castillo de la princesa. El héroe bigotón inmediatamente saltó en acción y corrió hacia el incendio. ¡Y la princesa desapareció en cuanto él la dejó sola! ¿Quién está detrás de la desaparición de la princesa? ¿Quién está detrás del ataque al castillo? ¿Será que los dos incidentes están relacionados? ¿Es verdad que una vez Bowser Jr. pensó que la princesa Peach era su madre? Parece que Mario va a necesitar de todos los mega champiñones para llegar al fondo de este desastre.",
+            "platform": "Nintendo DS"
+        },
+        {
+            "id": 10,
+            "year": 2007,
+            "name": "Super Mario Galaxy",
+            "image": "img/videogames/super_mario_galaxy.jpg",
+            "description": "Cada cien años un enorme cometa vuela por los cielos del Reino Champiñón. Un año el cometa cubrió por completo los cielos y de él cayeron oleadas de estrellas fugaces. Los toads recogieron los trozos de estrella y se los llevaron al castillo donde estos renacieron como Superestrellas. Eran tiempos felices en el Reino Champiñón. Pero un día Mario recibió una carta… “Querido Mario, Te esperaré en el castillo la noche del Festival de las Estrellas. Tengo algo que quisiera darte. Atentamente: Peach”. Con la invitación en su mano Mario se dirigió al castillo justo cuando el Festival de las Estrellas estaba ocurriendo. Rodeado de toads que felices intentaban atrapar los trozos de estrella, Mario esperaba con ansias las festividades de la noche. Pero después, algo pasó…",
+            "platform": "Wii"
+        },
+        {
+            "id": 11,
+            "year": 2009,
+            "name": "New Super Mario Bros Wii",
+            "image": "img/videogames/new_super_mario_bros_wii.jpg",
+            "description": "Hoy es el cumpleaños de la princesa Peach así que su castillo está lleno de regalos. Mario y Luigi están celebrando con los toads y la princesa Peach cuando llega un enorme pastel de cumpleaños. ¿De quién vendrá esto? De pronto, Bowser Jr. y sus secuaces brincan del pastel. Todos están sorprendidos y empieza el caos. En un momento los invasores toman a la princesa Peach y se alejan en una gigantesca nave voladora. ¡Los toads entran en pánico! ¡Mario, Luigi, Toad amarillo, Toad azul y hasta Yoshi persiguen a la nave voladora para rescatar a la princesa Peach! ¡Juntos se lanzarán a una increíble aventura!",
+            "platform": "Wii"
+        },
+        {
+            "id": 12,
+            "year": 2010,
+            "name": "Super Mario Galaxy 2",
+            "image": "img/videogames/.jpg",
+            "description": "Una espectacular lluvia de estrellas que cada cien años baña los cielos del Reino Champiñón. Nuestro relato comienza justo en ese momento... “Querido Mario: ¿Te gustaría comer un delicioso pastel conmigo mientras miramos la lluvia de estrellas? ¡Nos vemos en el castillo! Peach”. Mario corría por el verde valle del reino mientras estrellas fugaces caían a su alrededor. De repente, vio una luz extraña en la hierba. Al acercarse cautelosamente, descubrió un Mini destello que estaba perdido. Con el Mini destello escondido bajo su gorra, Mario se apresuró hacia al castillo. Pero cuando llegó, le esperaba una sorpresa...",
+            "platform": "Wii"
+        },
+        {
+            "id": 13,
+            "year": 2011,
+            "name": "Super Mario 3D Land",
+            "image": "img/videogames/super_mario_3d_land.jpg",
+            "description": "El Reino Champiñón es el hogar de un curioso árbol, conocido como el Árbol Tanuki debido a que tiene una extraña cola. El Árbol Tanuki es muy apreciado entre los habitantes del Reino Champiñón. Una noche, una terrible tempestad asola el reino. La princesa Peach, preocupada por el Árbol Tanuki, decide ir a comprobar como está, pese a la tormenta. A la mañana siguiente aún no ha regresado. Mario y los toads se apresuran a visitar el Árbol Tanuki para indagar sobre el paradero de la princesa. Cuando llegan, descubren que todas las hojas se han caído y que el árbol presenta una imagen solitaria y pelada. Además, en un sobre encuentran una fotografía que muestra a la princesa Peach en las garras de Bowser. La foto causa una gran conmoción entre los toads. ¡Bowser ha vuelto a hacer una de las suyas! Solo una persona puede ayudar ahora a la princesa Peach, y ese es Mario.",
+            "platform": "Nintendo 3DS"
+        },
+        {
+            "id": 14,
+            "year": 2012,
+            "name": "New Super Mario Bros 2",
+            "image": "img/videogames/new_super_mario_bros_2.jpg",
+            "description": "Mario y Luigi están de visita en el castillo de la princesa Peach. Como siempre, disfrutaron conversar con la princesa acerca de sus aventuras. Mientras la princesa Peach se despide, Mario y Luigi usan sus transformaciones para recolectar monedas en el cielo. Poco después de aterrizar para tomar un descanso una sombra negra se aproxima. Escuchan un estruendo mientras los secuaces de Bowser aparecen en una nave voladora que se detiene justo encima de ellos. Sorprendidos miran a la princesa Peach pidiendo ayuda. ¡La han secuestrado otra vez! Los héroes deciden perseguirlos y ¡una nueva aventura da inicio!",
+            "platform": "Nintendo 3DS"
+        },
+        {
+            "id": 15,
+            "year": 2012,
+            "name": "New Super Mario Bros U",
+            "image": "img/videogames/new_super_mario_bros_u.jpg",
+            "description": "¡La pandilla de Bowser ha invadido el castillo de la princesa Peach! Esta vez el objetivo de la aventura será el castillo ocupado de la princesa Peach.",
+            "platform": "Wii U"
+        },
+        {
+            "id": 16,
+            "year": 2013,
+            "name": "Super Mario 3D World",
+            "image": "img/videogames/super_mario_3d_world.jpg",
+            "description": "En una celebración nocturna, Mario y sus amigos encuentran una tubería brillante en las afueras del castillo de la princesa Peach. Llenos de curiosidad se asoman dentro… ¡y descubren un reino de hadas! Bowser ha capturado a las princesas hadinas, ¡así que Mario y sus amigos emprenden una nueva aventura!",
+            "platform": "Wii U"
+        },
+        {
+            "id": 17,
+            "year": 2013,
+            "name": "Super Mario Maker",
+            "image": "img/videogames/super_mario_maker.jpg",
+            "description": "¡Combina partes (bloques, goombas, tuberías y más) para crear tus propios niveles de Super Mario Bros.! Después compártelos en línea, juega en los niveles que otros usuarios han creado, ¡y diviértete de muchísimas maneras! Super Mario Maker incluye lecciones de Yamamura donde explica el diseño de niveles.",
+            "platform": "Wii U / Nintendo DS"
+        },
+        {
+            "id": 18,
+            "year": 2016,
+            "name": "Super Mario Run",
+            "image": "img/videogames/super_mario_run.jpg",
+            "description": "Bowser ha secuestrado a la princesa Peach, ¡así que corre, salta y supera obstáculos mientras aceleras al rescate! Mario ha saltado de las consolas hacia tu teléfono inteligente. ¡Toca para controlarlo mientras corre hacia el castillo de Bowser!",
+            "platform": "Movil"
+        },
+        {
+            "id": 19,
+            "year": 2017,
+            "name": "Super Mario Odyssey",
+            "image": "img/videogames/super_mario_odyssey.jpg",
+            "description": "Explora maravillosos lugares lejos del Reino Champiñón mientras formas un equipo con Mario y su nuevo aliado Cappy en una masiva aventura trotamundos en 3D. Usa nuevas e increíbles habilidades, controla objetos, animales y enemigos para obtener las energilunas que la nave necesita y, ¡rescata a la princesa Peach de los malvados planes de boda de Bowser!",
+            "platform": "Nintendo Switch"
+        },
+        {
+            "id": 20,
+            "year": 2019,
+            "name": "New Super Mario Bros.™ U Deluxe",
+            "image": "img/videogames/new_super_mario_bros_u_deluxe.jpg",
+            "description": "¡Únete a Mario, Luigi y sus amigos en una aventura (para un jugador o para varios jugadores) donde quieras y cuando quieras! Enfréntate a dos aventuras de desplazamiento lateral para toda la familia mientras intentas salvar al Reino Champiñón. Incluye el juego New Super Mario Bros. U y su versión aún más difícil y veloz, New Super Luigi U. ¡Ambos incluyen a Caco Gazapo y a Toadette como personajes jugables!",
+            "platform": "Nintendo Switch"
+        },
+        {
+            "id": 21,
+            "year": 2019,
+            "name": "Super Mario Maker 2",
+            "image": "img/videogames/super_mario_maker_2.jpg",
+            "description": "Selecciona el Modo Historia para un jugador y juega en originales niveles para reconstruir el castillo de la princesa Peach. Crea tus propios niveles solo o con otros jugadores. Y con una suscripción a Nintendo Switch Online podrás compartir tus niveles, acceder a una inmensa selección de niveles creados por otros jugadores, disfrutar del juego multijugador en línea y mucho más.",
+            "platform": "Nintendo Switch"
+        },
+        {
+            "id": 22,
+            "year": 2020,
+            "name": "Super Mario 3D All-Stars",
+            "image": "img/videogames/super_mario_3d_all_stars.jpg",
+            "description": "Disfruta de tres clásicos juegos en casa o dondequiera que vayas, ¡todo en un solo paquete en la consola Nintendo Switch™! Salta hacia las pinturas en Super Mario 64™, limpia la sustancia que parece pintura en Super Mario Sunshine™ y vuela entre los planetas en Super Mario Galaxy™.",
+            "platform": "Nintendo Switch"
+        },
+        {
+            "id": 23,
+            "year": 2021,
+            "name": "Super Mario 3D World + Bowser's Fury",
+            "image": "img/videogames/super_mario_3d_world_bowsers_fury.jpg",
+            "description": "En Super Mario 3D World, ¡Araña y trepa a través de docenas de coloridos niveles! Mario y sus amigos pueden utilizar una variedad de mejoras como la supercampana, que otorga habilidades felinas como trepar y arañar. Forma un equipo con hasta tres jugadores más en el modo local* o en línea** para completar el objetivo y ver quién obtiene el puntaje más alto. En Bowser’s Fury, ¡Mario llega al Mar de los Zarpazos y debe enfrentarse a un Bowser enfurecido! Únete a Bowser Jr. y explora un mundo interconectado con un estilo muy felino… por todas partes. Hay enemigos, flores e incluso pájaros con forma de gato. Comparte un control Joy-Con ™️ con un amigo para que controle a Bowser Jr. en el modo de juego para dos jugadores.",
+            "platform": "Nintendo Switch"
+        }
+    ]
+}

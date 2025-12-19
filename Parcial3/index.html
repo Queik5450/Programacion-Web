@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mario Bros Franchise</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="img/logo.png" alt="Mario Logo" class="logo">
+    </div>
+  </header>
+
+  <section class="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h1>Super Mario Bros</h1>
+      </div>
+      <div class="carousel-item">
+        <h1>Mundo Champiñón</h1>
+      </div>
+      <div class="carousel-item">
+        <h1>Aventuras Épicas</h1>
+      </div>
+    </div>
+    
+    <button class="carousel-control prev" onclick="moveCarousel(-1)">&#10094;</button>
+    <button class="carousel-control next" onclick="moveCarousel(1)">&#10095;</button>
+    <div class="carousel-indicators">
+      <span class="dot" onclick="currentSlide(0)"></span>
+      <span class="dot" onclick="currentSlide(1)"></span>
+      <span class="dot" onclick="currentSlide(2)"></span>
+    </div>
+  </section>
+
+  <section class="description">
+    <p>
+      Bienvenido al mundo de Mario Bros, donde la aventura y la diversión nunca terminan. 
+      Explora toda la información sobre la franquicia, como sus personajes icónicos, items legendarios y videojuegos inolvidables que han marcado generaciones.
+    </p>
+  </section>
+
+  <div class="main-container">
+    <aside class="sidebar">
+      <h3>Menu</h3>
+      <ul>
+        <li class="menu-item active" onclick="loadCategory('characters')">Personajes</li>
+        <li class="menu-item" onclick="loadCategory('items')">Items</li>
+        <li class="menu-item" onclick="loadCategory('videogames')">Videojuegos</li>
+      </ul>
+    </aside>
+
+    <main class="content">
+      <h2 id="section-title">Personajes</h2>
+      <div id="grid-container" class="grid-container">
+      </div>
+      <div class="load-more-container">
+        <button id="load-more">Cargar más</button>
+      </div>
+    </main>
+  </div>
+
+  <footer>
+    <p>&lt;&gt;José Pereira 2025</p>
+  </footer>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <div id="modal-body">
+      </div>
+    </div>
+  </div>
+
+  <script src="js/functions.js"></script>
+
+</body>
+
+</html>
